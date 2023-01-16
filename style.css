@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: gray;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+}
+/* ------------- */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 790px;
+  height: auto;
+  margin: auto;
+}
+
+.rigth {
+  width: 100%;
+  background-color: rgba(248, 248, 243, 0.956);
+  padding: 25px 20px 137px 50px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: gray;
+  margin-bottom: 100px;
+}
+
+.left {
+  width: 420px;
+  background-color: rgba(216, 216, 208, 0.666);
+  padding-top: 10px;
+}
+
+.images {
+  background-color: rgb(108, 108, 112);
+}
+
+.list-wrapper {
+  padding: 20px 20px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 35px;
+}
+
+.subtitle {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 16px;
+
+  line-height: 1.7;
+}
+
+.subtitle::after {
+  display: block;
+
+  content: "";
+  width: 70%;
+  height: 2px;
+  background-color: silver;
+}
+
+.skills-list {
+  list-style-position: inside;
+}
+
+.media {
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 8px;
+  color: gray;
+}
+
+.text {
+  margin-bottom: 30px;
+}
+
+.link {
+  display: inline;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: gray;
+}
